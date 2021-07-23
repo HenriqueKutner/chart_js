@@ -12,18 +12,19 @@ export default function DashBoard() {
   return (
     <div className="main_dashboard_and_graphics">
       <div className="dashboard_side_bar">
+        <p>icon</p>
         <h1>Dashboard</h1>
       </div>
       <div className="graphics">
         <GraphicsHeader />
-        <div style={{ display: "flex" }}>
+        <div className="cards">
           <Cards />
           <Cards />
           <Cards />
           <Cards />
         </div>
         <LineChart />
-        <div style={{ display: "flex" }}>
+        <div className="other_charts">
           <RadarChart />
           <PolarChart />
           <BarChart />

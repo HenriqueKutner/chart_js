@@ -3,7 +3,7 @@ import { Bar } from 'react-chartjs-2'
 
 export default function BarChart() {
   return (
-    <div style={{ width: "400px" }}>
+    <div style={{ width: "350px", paddingLeft: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
       <Bar
         data={{
           labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],

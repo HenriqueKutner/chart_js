@@ -11,3 +11,5 @@ npm i --save react-chartjs-2 chart.js
 install node-sass
 
 yarn add node-sass@4.14.1
+
+yarn add @material-ui/core

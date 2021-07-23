@@ -3,7 +3,7 @@ import { PolarArea } from 'react-chartjs-2'
 
 export default function PolarChart() {
   return (
-    <div style={{ width: "300px" }}>
+    <div style={{ width: "300px", marginRight: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
       <PolarArea
         data={{
           labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],

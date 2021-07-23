@@ -9,15 +9,32 @@
       width: 15%;
       height: 100vh;
       background-color: rgb(38, 51, 168);
+      display: flex;
+        p {
+          margin-top: 10px;
+          margin-left: 5px;
+        }
         h1{
           color: rgb(34, 16, 136);
-          font-size: 100%;
+          margin: 10px;
+          font-size: 20px;
         }
     }
 
     .graphics{
       width: 85%;
-      background-color: #d1c4c4;;
+      background-color: #ebebeb;;
       height: 100vh;
+
+        .cards{
+          display: flex;
+        }
+
+        .other_charts{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          
+        }
     }
 }

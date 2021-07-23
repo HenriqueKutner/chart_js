@@ -4,7 +4,7 @@ import { Radar } from 'react-chartjs-2'
 export default function RadarChart() {
   return (
     <div >
-      <div style={{ width: "300px" }}>
+      <div style={{ width: "300px", marginRight: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
         <Radar
           data={{
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
