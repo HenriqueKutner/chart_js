@@ -1,10 +1,11 @@
 .wrap_line{
 
-  width: 100%;
  
-
+  display: flex;
+  justify-content: center;
   .LineChart{
     width: 400px;
+    
     background-color: white;
   }
 }

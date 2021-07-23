@@ -6,23 +6,25 @@
   font-family: Arial, Helvetica, sans-serif;
  
     .dashboard_side_bar{
-      width: 15%;
+      width: 13%;
       height: 100vh;
+      padding: 10px;
       background-color: rgb(38, 51, 168);
       display: flex;
         p {
-          margin-top: 10px;
+          margin-top: 5px;
           margin-left: 5px;
+          color: rgb(81, 53, 241);
         }
         h1{
-          color: rgb(34, 16, 136);
+          color: rgb(81, 53, 241);
           margin: 10px;
-          font-size: 20px;
+          font-size: 15px;
         }
     }
 
     .graphics{
-      width: 85%;
+      width: 87%;
       background-color: #ebebeb;;
       height: 100vh;
 

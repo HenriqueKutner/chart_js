@@ -1,17 +1,35 @@
 .header_main{
   width: 100%;
   display: flex;
-  background-color: aqua;
+  
+  background-color: white;
+  
 
     .header_one{
-      width: 50%;
-      background-color: rgb(14, 7, 7);
+      display: flex;
+      width: 95%;
+     
+        p{
+          margin-right: 5px;
+          margin-left: 5px;
+          color: rgb(160, 160, 160);
+        
+          
+        }
+        h3 {
+          margin-top: 6px;
+          color: rgb(160, 160, 160);
+          font-size: 12px;
+          margin-left: 10px;
+        }
     }
 
     .header_two{
-      width: 50%;
-      background-color: rgb(173, 173, 173);
-      
+      width: 5%;
+        p{
+          margin-top: 2px;
+          color: rgb(160, 160, 160);
+        }
     }
 }
 

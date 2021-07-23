@@ -11,7 +11,7 @@ export default function LineChart() {
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
             datasets: [
               {
-                label: '# of votes',
+                label: 'Numbers',
                 data: [12, 19, 3, 5, 2, 3],
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
@@ -33,7 +33,7 @@ export default function LineChart() {
               },
               {
                 label: 'quantity',
-                data: [100, 104, 67, 508, 900, 50],
+                data: [10, 10, 6, 5, 9, 5],
                 backgroundColor: 'orange',
                 borderColor: 'red',
                 borderWidth: 1
@@ -43,18 +43,12 @@ export default function LineChart() {
           height={400}
           width={600}
           options={{
-            maintainAspectratio: false,
             scales: {
-              yAxes: [
-                {
-                  ticks: {
-                    beginAtZero: true
-                  }
-                }
-              ]
-            }
 
-          }}
+            }
+          }
+
+          }
         />
       </div>
     </div>

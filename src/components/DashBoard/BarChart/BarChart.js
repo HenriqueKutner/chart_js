@@ -3,13 +3,13 @@ import { Bar } from 'react-chartjs-2'
 
 export default function BarChart() {
   return (
-    <div style={{ width: "350px", paddingLeft: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
+    <div style={{ width: "300px", paddingLeft: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
       <Bar
         data={{
           labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
           datasets: [
             {
-              label: '# of votes',
+              label: 'Numbers',
               data: [12, 19, 3, 5, 2, 3],
               backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -31,7 +31,7 @@ export default function BarChart() {
             },
             {
               label: 'quantity',
-              data: [100, 104, 67, 508, 900, 50],
+              data: [10, 10, 6, 5, 9, 5],
               backgroundColor: 'orange',
               borderColor: 'red',
               borderWidth: 1
@@ -43,13 +43,12 @@ export default function BarChart() {
         options={{
           maintainAspectratio: false,
           scales: {
-            yAxes: [
-              {
-                ticks: {
-                  beginAtZero: true
-                }
-              }
-            ]
+            x: {
+              stacked: true,
+            },
+            y: {
+              stacked: true
+            }
           }
 
         }}

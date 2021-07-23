@@ -3,13 +3,13 @@ import { PolarArea } from 'react-chartjs-2'
 
 export default function PolarChart() {
   return (
-    <div style={{ width: "300px", marginRight: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
+    <div style={{ width: "270px", marginRight: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
       <PolarArea
         data={{
           labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
           datasets: [
             {
-              label: '# of votes',
+              label: 'Numbers',
               data: [12, 19, 3, 5, 2, 3],
               backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -31,8 +31,7 @@ export default function PolarChart() {
             },
             {
               label: 'quantity',
-              data: [100, 104, 67, 508, 900, 50],
-              backgroundColor: 'orange',
+              data: [10, 10, 6, 5, 9, 5], backgroundColor: 'orange',
               borderColor: 'red',
               borderWidth: 1
             }

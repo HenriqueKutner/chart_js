@@ -4,13 +4,13 @@ import { Radar } from 'react-chartjs-2'
 export default function RadarChart() {
   return (
     <div >
-      <div style={{ width: "300px", marginRight: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
+      <div style={{ width: "270px", marginRight: "15px", marginTop: "10px", marginBottom: "10px", backgroundColor: "white", borderRadius: "5px" }}>
         <Radar
           data={{
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
             datasets: [
               {
-                label: '# of votes',
+                label: 'Numbers',
                 data: [12, 19, 3, 5, 2, 3],
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
@@ -32,7 +32,7 @@ export default function RadarChart() {
               },
               {
                 label: 'quantity',
-                data: [100, 104, 67, 508, 900, 50],
+                data: [10, 10, 6, 5, 9, 5],
                 backgroundColor: 'orange',
                 borderColor: 'red',
                 borderWidth: 1
