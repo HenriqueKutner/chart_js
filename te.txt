@@ -1,0 +1,13 @@
+Read me
+
+Para rodar a aplicação primeiro
+
+pacotes instalados
+
+npx create-react-app aaaa
+
+npm i --save react-chartjs-2 chart.js
+
+install node-sass
+
+yarn add node-sass@4.14.1

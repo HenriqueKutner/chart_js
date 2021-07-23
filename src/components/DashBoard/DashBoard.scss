@@ -1,0 +1,23 @@
+
+
+.main_dashboard_and_graphics{
+  width: 100%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+    .dashboard_side_bar{
+      width: 15%;
+      height: 100vh;
+      background-color: rgb(38, 51, 168);
+        h1{
+          color: rgb(34, 16, 136);
+          font-size: 100%;
+        }
+    }
+
+    .graphics{
+      width: 85%;
+      background-color: #d1c4c4;;
+      height: 100vh;
+    }
+}
