@@ -2,6 +2,10 @@ import React from 'react'
 import './DashBoard.scss'
 import GraphicsHeader from './GraphicsHeader/GraphicsHeader'
 import Cards from './Cards/Cards'
+import LineChart from './LineChart/LineChart'
+import BarChart from './BarChart/BarChart'
+import PolarChart from './PolarChart/PolarChart'
+import RadarChart from './RadarChart/RadarChart'
 
 
 export default function DashBoard() {
@@ -17,6 +21,12 @@ export default function DashBoard() {
           <Cards />
           <Cards />
           <Cards />
+        </div>
+        <LineChart />
+        <div style={{ display: "flex" }}>
+          <RadarChart />
+          <PolarChart />
+          <BarChart />
         </div>
       </div>
     </div>
