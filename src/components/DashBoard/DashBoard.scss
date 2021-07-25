@@ -1,42 +1,41 @@
-
-
-.main_dashboard_and_graphics{
+.main_dashboard_and_graphics {
   width: 100%;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
- 
-    .dashboard_side_bar{
-      width: 13%;
-      height: 100vh;
-      padding: 10px;
-      background-color: rgb(38, 51, 168);
+
+  .dashboard_side_bar {
+    width: 13%;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(38, 51, 168);
+    display: flex;
+    p {
+      margin-top: 5px;
+      margin-left: 5px;
+      color: rgb(81, 53, 241);
+      cursor: pointer;
+    }
+    h1 {
+      color: rgb(81, 53, 241);
+      margin: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+
+  .graphics {
+    width: 87%;
+    background-color: #ebebeb;
+    height: 100vh;
+
+    .cards {
       display: flex;
-        p {
-          margin-top: 5px;
-          margin-left: 5px;
-          color: rgb(81, 53, 241);
-        }
-        h1{
-          color: rgb(81, 53, 241);
-          margin: 10px;
-          font-size: 15px;
-        }
     }
 
-    .graphics{
-      width: 87%;
-      background-color: #ebebeb;;
-      height: 100vh;
-
-        .cards{
-          display: flex;
-        }
-
-        .other_charts{
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          
-        }
+    .other_charts {
+      width: 100%;
+      display: flex;
+      justify-content: center;
     }
+  }
 }
